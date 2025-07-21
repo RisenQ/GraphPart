@@ -285,7 +285,7 @@ namespace GraphPart
             Controls.Add(menuStrip);
             MainMenuStrip = menuStrip;
             Name = "Form1";
-            Text = "Лучше чем КР580";
+            Text = "Графический эмулятор кода MK4";
             menuStrip.ResumeLayout(false);
             menuStrip.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgvRegisters).EndInit();
