@@ -249,7 +249,7 @@ namespace GraphPart
             process.StartInfo.CreateNoWindow = true;
 
             process.Start();
-            process.StandardInput.Write(new StreamReader("code.bin").ReadToEnd());
+            process.StandardInput.Write(new StreamReader("compiled.bin").ReadToEnd());
             process.StandardInput.Close();
 
             string output = process.StandardOutput.ReadToEnd();
